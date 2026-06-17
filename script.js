@@ -39,6 +39,9 @@ const create_section = (prop) => {
                         td.innerText = val;
                         tr.append(td);
                     });
+                    if (filename === "6. 高力ボルト接合部/6-6. H梁継手性能表.csv") {
+                        tr.style.display = "none";
+                    };
                     tbody.append(tr);
                 });
                 return tbody;
