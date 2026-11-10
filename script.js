@@ -186,6 +186,7 @@ const main = () => {
         ['8. 各部構造/8-3.4. QLデッキ許容積載荷重表.csv',210],
         ['8. 各部構造/8-5. 母屋・根太.csv',219],
         ["8. 各部構造/8-8.1. 露出柱脚アンカーボルト.csv", 229],
+        ["tpj.csv", 0],
     ];
     Promise.all(
         props.map(prop => create_section(prop))
